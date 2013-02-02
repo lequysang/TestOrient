@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyNavigationControllerViewController.h"
 
 @class ViewController;
 

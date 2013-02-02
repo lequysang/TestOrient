@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TestViewController.h
 //  TestOrient
 //
 //  Created by Quy Sang Le on 2/1/13.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TestViewController.h"
 
-@interface ViewController : UIViewController
-- (IBAction)pushTo:(id)sender;
+@interface TestViewController : UIViewController
+- (IBAction)back:(id)sender;
 
 @end

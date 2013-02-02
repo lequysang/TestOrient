@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29BCA20C16BCF78C001916BC /* MyNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BCA20B16BCF78C001916BC /* MyNavigationControllerViewController.m */; };
 		29C8FE6F16BB959900C5F69D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C8FE6E16BB959900C5F69D /* UIKit.framework */; };
 		29C8FE7116BB959900C5F69D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C8FE7016BB959900C5F69D /* Foundation.framework */; };
 		29C8FE7316BB959900C5F69D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C8FE7216BB959900C5F69D /* CoreGraphics.framework */; };
@@ -18,9 +19,13 @@
 		29C8FE8516BB959900C5F69D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29C8FE8416BB959900C5F69D /* Default-568h@2x.png */; };
 		29C8FE8816BB959900C5F69D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C8FE8716BB959900C5F69D /* ViewController.m */; };
 		29C8FE8B16BB959900C5F69D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29C8FE8916BB959900C5F69D /* ViewController.xib */; };
+		29C8FE9416BB98D000C5F69D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C8FE9216BB98D000C5F69D /* TestViewController.m */; };
+		29C8FE9516BB98D000C5F69D /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29C8FE9316BB98D000C5F69D /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29BCA20A16BCF78C001916BC /* MyNavigationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationControllerViewController.h; sourceTree = "<group>"; };
+		29BCA20B16BCF78C001916BC /* MyNavigationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationControllerViewController.m; sourceTree = "<group>"; };
 		29C8FE6B16BB959900C5F69D /* TestOrient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOrient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C8FE6E16BB959900C5F69D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		29C8FE7016BB959900C5F69D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +42,9 @@
 		29C8FE8616BB959900C5F69D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		29C8FE8716BB959900C5F69D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		29C8FE8A16BB959900C5F69D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		29C8FE9116BB98D000C5F69D /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		29C8FE9216BB98D000C5F69D /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		29C8FE9316BB98D000C5F69D /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,11 @@
 				29C8FE8716BB959900C5F69D /* ViewController.m */,
 				29C8FE8916BB959900C5F69D /* ViewController.xib */,
 				29C8FE7516BB959900C5F69D /* Supporting Files */,
+				29C8FE9116BB98D000C5F69D /* TestViewController.h */,
+				29C8FE9216BB98D000C5F69D /* TestViewController.m */,
+				29C8FE9316BB98D000C5F69D /* TestViewController.xib */,
+				29BCA20A16BCF78C001916BC /* MyNavigationControllerViewController.h */,
+				29BCA20B16BCF78C001916BC /* MyNavigationControllerViewController.m */,
 			);
 			path = TestOrient;
 			sourceTree = "<group>";
@@ -163,6 +176,7 @@
 				29C8FE8316BB959900C5F69D /* Default@2x.png in Resources */,
 				29C8FE8516BB959900C5F69D /* Default-568h@2x.png in Resources */,
 				29C8FE8B16BB959900C5F69D /* ViewController.xib in Resources */,
+				29C8FE9516BB98D000C5F69D /* TestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +190,8 @@
 				29C8FE7B16BB959900C5F69D /* main.m in Sources */,
 				29C8FE7F16BB959900C5F69D /* AppDelegate.m in Sources */,
 				29C8FE8816BB959900C5F69D /* ViewController.m in Sources */,
+				29C8FE9416BB98D000C5F69D /* TestViewController.m in Sources */,
+				29BCA20C16BCF78C001916BC /* MyNavigationControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +316,7 @@
 				29C8FE9016BB959900C5F69D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
